@@ -25,12 +25,10 @@ There are five choices:
 5. Mixed
 
 ## Requirements
-~~[python3.11](https://www.python.org/downloads/)
+~~python3.11~~
+~~Install required package with the following command:~~
+~~pip install -r requirements.txt~~
 
-Install required package with the following command:
-```
-pip install -r requirements.txt~~
-```
 
 All pre-packaged in the exe nothing else is required.
 
