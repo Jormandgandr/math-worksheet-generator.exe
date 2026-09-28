@@ -25,61 +25,42 @@ There are five choices:
 5. Mixed
 
 ## Requirements
-[python3.11](https://www.python.org/downloads/)
+~~[python3.11](https://www.python.org/downloads/)
 
 Install required package with the following command:
 ```
-pip install -r requirements.txt
+pip install -r requirements.txt~~
 ```
+
+All pre-packaged in the exe nothing else is required.
 
 ## How to Use
-1. Generate the worksheet in pdf format with the following command:
-```
-python3 run.py --type [+|-|x|/|mix] --digits [1|2|3] [-q|--question_count] [int] --output [custom-name.pdf] --title [title-at-front-page]
-```
-2. Print out the generated file `worksheet.pdf`
+1. Run the Math-Worksheet-Generator.exe
 
-For addition only worksheet:
-```
-python3 run.py --type +
-```
-For calculation up to 3 digits range:
-```
-python3 run.py --digits 3
-```
-For generating different number of question, eg. 100 (default is 80):
-```
-python3 run.py -q 100
-```
-or
-```
-python3 run.py --question_count 100
-```
-For custom output filename (default is worksheet.pdf):
-```
-python3 run.py --output custom-name.pdf
-```
-For adding a front page with title, name, date, and score fields:  
-Use default title 'Math Practice Worksheet'
-```
-python3 run.py --title 
-```
-or specify custom title
-```
-python3 run.py --title 'Math Quiz 1'
-```
+[Math-Worksheet-Generator-v1-Sample](Math-Worksheet-Generator-v1-Sample.png)
+
+2. Enter the Total amount of Questions.
+
+3. Enter the Highest Number you would like to appear.
+
+4. Press one one of the buttons depending on which sheet you would like to generate.
+
+5. The generated sheet will appear in the same directory as the exe.
 
 ## Sample
 [sample worksheet](sample-worksheet.pdf)
 
 ## Code Overview
-Everything is written in python in `run.py`. You can play with the font and grid size with the variables under the `# Basic settings` section.
+~~Everything is written in python in `run.py`. You can play with the font and grid size with the variables under the `# Basic settings` section.~~
+
+This level of editing font is not available within the exe version
 
 ## Contributing
 I appreciate all suggestions or PRs which will help kids learn math better. Feel free to fork the project and create a pull request with your idea.
 
 ## TODO
-Nil
+1. Add an optional file name field to the GUI
+2. Error codes for non-numrical entry
 
 ## Special Thanks
 My long time friend San for the inspiration of this project and lovely sons Tim and Hin. Thanks [thedanimal](https://github.com/thedanimal) for reviewing this README and adding new features.

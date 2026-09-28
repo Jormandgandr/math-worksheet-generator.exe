@@ -17,7 +17,7 @@ def addition():
     d = int(D.get())
     import run
     #Type,Digits,Questions,Output,Title
-    run.main("+", d, q, "addition.pdf", "Addition Praceice")
+    run.main("+", d, q, "Addition.pdf", "Addition Practice")
     ttk.Label(frm, text="addition.pdf created!").grid(columnspan=4, row=7)
 
 def Subtraction():
@@ -25,7 +25,7 @@ def Subtraction():
     d = int(D.get())
     import run
     #Type,Digits,Questions,Output,Title
-    run.main("-", d, q, "addition.pdf", "Addition Praceice")
+    run.main("-", d, q, "Subtraction.pdf", "Subtraction Practice")
     ttk.Label(frm, text="addition.pdf created!").grid(columnspan=4, row=7)
 
 def Multiplication():
@@ -33,16 +33,16 @@ def Multiplication():
     d = int(D.get())
     import run
     #Type,Digits,Questions,Output,Title
-    run.main("x", d, q, "addition.pdf", "Addition Praceice")
-    ttk.Label(frm, text="addition.pdf created!").grid(columnspan=4, row=7)
+    run.main("x", d, q, "Multiplication.pdf", "Multiplication Practice")
+    ttk.Label(frm, text="Multiplication.pdf created!").grid(columnspan=4, row=7)
 
 def Division():
     q = int(Q.get())
     d = int(D.get())
     import run
     #Type,Digits,Questions,Output,Title
-    run.main("/", d, q, "addition.pdf", "Addition Praceice")
-    ttk.Label(frm, text="addition.pdf created!").grid(columnspan=4, row=7)
+    run.main("/", d, q, "Division.pdf", "Division Practice")
+    ttk.Label(frm, text="Division.pdf created!").grid(columnspan=4, row=7)
 
 def Mixed():
     q = int(Q.get())
